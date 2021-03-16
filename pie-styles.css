@@ -1,0 +1,57 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  background-color: Orange;
+}
+
+/* link styles */
+a:link, a:visited { color: #DC6903; }
+a:focus, a:hover, a:active { color: #F9AB33; }
+
+
+/* header styles */
+header {
+  color: black;
+  background:  url(Fall.png) no-repeat center center;
+  background-size: cover; 
+  text-align: center;
+  height: 25em;
+}
+header p {
+  font-style: italic;
+  font-size: 2.2em;
+}
+
+/* nav styles */
+nav, footer {
+  font-family: verdana, sans-serif;
+  background-color: #783F27;
+}
+nav ul li a:link, nav ul li a:visited {
+  color: #F9AB33;
+}
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+  color: #fff;
+}
+nav ul li {
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+/* main "products" styles */
+main {
+  font-family: 'Stint Ultra Expanded', cursive;
+  background-color: Orange;
+  line-height: 1.8em;
+  color: Black;
+  padding: 1em;
+}
